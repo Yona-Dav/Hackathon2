@@ -4,7 +4,7 @@ from game import CountryCategory,Player,NumberPoints,CoktailCategory, FruitCateg
 
 def main():
     count=int()
-    print('*****************************\n* Welcome to the Guess game * \n*****************************')
+    print('*************************************\n* Welcome to the Guessing word game * \n*************************************')
 
     while True:
         print('''
@@ -21,7 +21,7 @@ def main():
             print('''
             The goal of this game is to find the word
             How?
-            First, you have to choice a category and a level.
+            First, you have to choose a category and a level.
             Each level has a different number of points (easy=10, intermediate=7, hard=
             4)
             In order to find the word, the computer can give you clues in exchange a price.
@@ -240,4 +240,5 @@ def main():
                         break
        
 
-main()
+if __name__ == '__main__':
+    main()
